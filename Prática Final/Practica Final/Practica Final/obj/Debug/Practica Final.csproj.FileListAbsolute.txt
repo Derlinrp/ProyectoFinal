@@ -1,0 +1,30 @@
+D:\Trabajos O&M\7mo. Cuatrimestre\Lenguaje C\Prática Final\Practica Final\Practica Final\bin\Debug\Practica Final.exe.config
+D:\Trabajos O&M\7mo. Cuatrimestre\Lenguaje C\Prática Final\Practica Final\Practica Final\bin\Debug\Practica Final.exe
+D:\Trabajos O&M\7mo. Cuatrimestre\Lenguaje C\Prática Final\Practica Final\Practica Final\bin\Debug\Practica Final.pdb
+D:\Trabajos O&M\7mo. Cuatrimestre\Lenguaje C\Prática Final\Practica Final\Practica Final\obj\Debug\Practica Final.csprojResolveAssemblyReference.cache
+D:\Trabajos O&M\7mo. Cuatrimestre\Lenguaje C\Prática Final\Practica Final\Practica Final\obj\Debug\Practica_Final.Properties.Resources.resources
+D:\Trabajos O&M\7mo. Cuatrimestre\Lenguaje C\Prática Final\Practica Final\Practica Final\obj\Debug\Practica Final.csproj.GenerateResource.Cache
+D:\Trabajos O&M\7mo. Cuatrimestre\Lenguaje C\Prática Final\Practica Final\Practica Final\obj\Debug\Practica Final.exe
+D:\Trabajos O&M\7mo. Cuatrimestre\Lenguaje C\Prática Final\Practica Final\Practica Final\obj\Debug\Practica Final.pdb
+D:\Trabajos O&M\7mo. Cuatrimestre\Lenguaje C\Prática Final\Practica Final\Practica Final\obj\Debug\Practica_Final.Registro.resources
+D:\Trabajos O&M\7mo. Cuatrimestre\Lenguaje C\Prática Final\Practica Final\Practica Final\obj\Debug\Practica_Final.Alumno.resources
+D:\Trabajos O&M\7mo. Cuatrimestre\Lenguaje C\Prática Final\Practica Final\Practica Final\obj\Debug\Practica_Final.RegistroEstudiante.resources
+D:\Trabajos O&M\7mo. Cuatrimestre\Lenguaje C\Prática Final\Practica Final\Practica Final\obj\Debug\Practica_Final.NuevaCuenta.resources
+D:\Trabajos O&M\7mo. Cuatrimestre\Lenguaje C\Prática Final\Practica Final\Practica Final\obj\Debug\Practica_Final.InicioDeSesion.resources
+D:\Trabajos O&M\7mo. Cuatrimestre\Lenguaje C\Prática Final\Practica Final\Practica Final\obj\Debug\Practica_Final.Maestro.resources
+D:\Trabajos O&M\7mo. Cuatrimestre\Lenguaje C\Prática Final\Practica Final\Practica Final\obj\Debug\Practica_Final.BuscarMaestro.resources
+D:\Trabajos O&M\7mo. Cuatrimestre\Lenguaje C\Prática Final\Practica Final\Practica Final\obj\Debug\Practica_Final.BuscarAlumno.resources
+D:\Trabajos O&M\7mo. Cuatrimestre\Lenguaje C\Prática Final\Practica Final\Practica Final\obj\Debug\Practica_Final.BuscarRegistro.resources
+D:\Trabajos O&M\7mo. Cuatrimestre\Lenguaje C\Prática Final\Practica Final\Practica Final\obj\Debug\Practica_Final.frmMenuPrincipal.resources
+D:\Trabajos O&M\7mo. Cuatrimestre\Lenguaje C\Prática Final\Practica Final\Practica Final\obj\Debug\Practica_Final.Consulta.resources
+D:\Trabajos O&M\7mo. Cuatrimestre\Lenguaje C\Prática Final\Practica Final\Practica Final\obj\Debug\Practica_Final.MaestroHo.resources
+D:\Trabajos O&M\7mo. Cuatrimestre\Lenguaje C\Prática Final\Practica Final\Practica Final\obj\Debug\Practica_Final.Process.resources
+D:\Trabajos O&M\7mo. Cuatrimestre\Lenguaje C\Prática Final\Practica Final\Practica Final\obj\Debug\Practica_Final.AdminHo.resources
+D:\Trabajos O&M\7mo. Cuatrimestre\Lenguaje C\Prática Final\Practica Final\Practica Final\obj\Debug\Practica_Final.ContHo.resources
+D:\Trabajos O&M\7mo. Cuatrimestre\Lenguaje C\Prática Final\Practica Final\Practica Final\obj\Debug\Practica_Final.IngHo.resources
+D:\Trabajos O&M\7mo. Cuatrimestre\Lenguaje C\Prática Final\Practica Final\Practica Final\obj\Debug\Practica_Final.IngSis.resources
+D:\Trabajos O&M\7mo. Cuatrimestre\Lenguaje C\Prática Final\Practica Final\Practica Final\obj\Debug\Practica_Final.MaestroHorario.resources
+D:\Trabajos O&M\7mo. Cuatrimestre\Lenguaje C\Prática Final\Practica Final\Practica Final\obj\Debug\Practica_Final.AContabilidad.resources
+D:\Trabajos O&M\7mo. Cuatrimestre\Lenguaje C\Prática Final\Practica Final\Practica Final\obj\Debug\Practica_Final.Administracion_de_Empresa.resources
+D:\Trabajos O&M\7mo. Cuatrimestre\Lenguaje C\Prática Final\Practica Final\Practica Final\obj\Debug\Practica_Final.Civil.resources
+D:\Trabajos O&M\7mo. Cuatrimestre\Lenguaje C\Prática Final\Practica Final\Practica Final\obj\Debug\Practica_Final.Sistema.resources

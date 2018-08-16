@@ -1,0 +1,404 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{A6856263-D94C-4403-82BA-B5E0A16F9128}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Practica_Final</RootNamespace>
+    <AssemblyName>Practica Final</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AContabilidad.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AContabilidad.Designer.cs">
+      <DependentUpon>AContabilidad.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdminHo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminHo.Designer.cs">
+      <DependentUpon>AdminHo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Administracion de Empresa.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Administracion de Empresa.Designer.cs">
+      <DependentUpon>Administracion de Empresa.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Alumno.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Alumno.Designer.cs">
+      <DependentUpon>Alumno.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AlumnoDal.cs" />
+    <Compile Include="AlumnoDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>AlumnoDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="BAlumnos.cs" />
+    <Compile Include="Buscar Maestro.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Buscar Maestro.Designer.cs">
+      <DependentUpon>Buscar Maestro.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BuscarAlumno.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BuscarAlumno.Designer.cs">
+      <DependentUpon>BuscarAlumno.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BuscarRegistro.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BuscarRegistro.Designer.cs">
+      <DependentUpon>BuscarRegistro.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Civil.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Civil.Designer.cs">
+      <DependentUpon>Civil.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Consulta.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Consulta.Designer.cs">
+      <DependentUpon>Consulta.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ContHo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ContHo.Designer.cs">
+      <DependentUpon>ContHo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CuentaNueva.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CuentaNueva.Designer.cs">
+      <DependentUpon>CuentaNueva.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSource.cs" />
+    <Compile Include="Estudiante.cs" />
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="IngHo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="IngHo.Designer.cs">
+      <DependentUpon>IngHo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="IngSis.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="IngSis.Designer.cs">
+      <DependentUpon>IngSis.cs</DependentUpon>
+    </Compile>
+    <Compile Include="InicioDeSesion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InicioDeSesion.Designer.cs">
+      <DependentUpon>InicioDeSesion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Maestro.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Maestro.Designer.cs">
+      <DependentUpon>Maestro.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MaestroHo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MaestroHo.Designer.cs">
+      <DependentUpon>MaestroHo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MaestroHorario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MaestroHorario.Designer.cs">
+      <DependentUpon>MaestroHorario.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Process.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Process.Designer.cs">
+      <DependentUpon>Process.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Registro.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Registro.Designer.cs">
+      <DependentUpon>Registro.cs</DependentUpon>
+    </Compile>
+    <Compile Include="registroDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>registroDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="registroDataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>registroDataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="registroDataSet21.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>registroDataSet21.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="RegistroEstudiante.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RegistroEstudiante.Designer.cs">
+      <DependentUpon>RegistroEstudiante.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Sistema.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Sistema.Designer.cs">
+      <DependentUpon>Sistema.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UsuarioDal.cs" />
+    <EmbeddedResource Include="AContabilidad.resx">
+      <DependentUpon>AContabilidad.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminHo.resx">
+      <DependentUpon>AdminHo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Administracion de Empresa.resx">
+      <DependentUpon>Administracion de Empresa.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Alumno.resx">
+      <DependentUpon>Alumno.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Buscar Maestro.resx">
+      <DependentUpon>Buscar Maestro.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BuscarAlumno.resx">
+      <DependentUpon>BuscarAlumno.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BuscarRegistro.resx">
+      <DependentUpon>BuscarRegistro.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Civil.resx">
+      <DependentUpon>Civil.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Consulta.resx">
+      <DependentUpon>Consulta.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ContHo.resx">
+      <DependentUpon>ContHo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CuentaNueva.resx">
+      <DependentUpon>CuentaNueva.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="IngHo.resx">
+      <DependentUpon>IngHo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="IngSis.resx">
+      <DependentUpon>IngSis.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InicioDeSesion.resx">
+      <DependentUpon>InicioDeSesion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Maestro.resx">
+      <DependentUpon>Maestro.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MaestroHo.resx">
+      <DependentUpon>MaestroHo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MaestroHorario.resx">
+      <DependentUpon>MaestroHorario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Process.resx">
+      <DependentUpon>Process.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="Registro.resx">
+      <DependentUpon>Registro.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RegistroEstudiante.resx">
+      <DependentUpon>RegistroEstudiante.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Sistema.resx">
+      <DependentUpon>Sistema.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="AlumnoDataSet.xsc">
+      <DependentUpon>AlumnoDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="AlumnoDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>AlumnoDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="AlumnoDataSet.xss">
+      <DependentUpon>AlumnoDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet1.xsc">
+      <DependentUpon>DataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet1.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSet1.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DataSet1.xss">
+      <DependentUpon>DataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="registroDataSet.xsc">
+      <DependentUpon>registroDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="registroDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>registroDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="registroDataSet.xss">
+      <DependentUpon>registroDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="registroDataSet1.xsc">
+      <DependentUpon>registroDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="registroDataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>registroDataSet1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="registroDataSet1.xss">
+      <DependentUpon>registroDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="registroDataSet21.xsc">
+      <DependentUpon>registroDataSet21.xsd</DependentUpon>
+    </None>
+    <None Include="registroDataSet21.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>registroDataSet21.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="registroDataSet21.xss">
+      <DependentUpon>registroDataSet21.xsd</DependentUpon>
+    </None>
+    <None Include="Resources\fondo31.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\User.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\llaves.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Delete.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\salir2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\salirprincipal.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\usu.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\usu1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mae.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\usuario.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Fondo.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
